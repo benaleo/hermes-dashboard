@@ -20,9 +20,18 @@ Thumbs.db
 .env
 *.bak
 
+# Logs
+*.log
+
+# Python build
+*.egg-info/
+
 # Claude Code sessions
 .omc/
 
 # Hermes
 *.db
 sessions.jsonl
+
+# Frontend build
+frontend/dist/
